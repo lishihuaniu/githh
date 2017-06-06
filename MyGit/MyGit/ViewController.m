@@ -18,6 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (void)dealWithStr:(NSString *)str
+{
+    NSArray*array = [str componentsSeparatedByString:@"out_trade_no=\""];
+    NSString *string = (NSString *)[array lastObject];
+    NSArray *array1 = [string componentsSeparatedByString:@"\""];
+    NSLog(@"%@",(NSString *)[array1 firstObject]);
+}
 
 
 - (void)didReceiveMemoryWarning {

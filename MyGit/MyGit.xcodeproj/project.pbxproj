@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					4A3B16E81EE6D159006C2B9D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9ZS47L6857;
 						ProvisioningStyle = Automatic;
 					};
 					4A3B17011EE6D159006C2B9D = {
@@ -426,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZS47L6857;
 				INFOPLIST_FILE = MyGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhikang.MyGit;
@@ -437,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZS47L6857;
 				INFOPLIST_FILE = MyGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhikang.MyGit;
@@ -509,6 +512,7 @@
 				4A3B17181EE6D159006C2B9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3B17191EE6D159006C2B9D /* Build configuration list for PBXNativeTarget "MyGitTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +521,7 @@
 				4A3B171B1EE6D159006C2B9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3B171C1EE6D159006C2B9D /* Build configuration list for PBXNativeTarget "MyGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				4A3B171E1EE6D159006C2B9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
