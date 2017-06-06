@@ -24,6 +24,9 @@
     NSString *string = (NSString *)[array lastObject];
     NSArray *array1 = [string componentsSeparatedByString:@"\""];
     NSLog(@"%@",(NSString *)[array1 firstObject]);
+    
+    NSLog(@"%@",(NSString *)[array1 firstObject]);
+    NSLog(@"%@",(NSString *)[array1 firstObject]);
 }
 
 
