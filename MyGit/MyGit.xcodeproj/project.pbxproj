@@ -15,6 +15,7 @@
 		4A3B16FC1EE6D159006C2B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3B16FA1EE6D159006C2B9D /* LaunchScreen.storyboard */; };
 		4A3B17071EE6D159006C2B9D /* MyGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B17061EE6D159006C2B9D /* MyGitTests.m */; };
 		4A3B17121EE6D159006C2B9D /* MyGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B17111EE6D159006C2B9D /* MyGitUITests.m */; };
+		4AAEBDEB1EE831EB004D09A5 /* LSHVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAEBDEA1EE831EB004D09A5 /* LSHVC.m */; };
 		E358BBC7C647973CB557C8C9 /* libPods-MyGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 467CE849CD22A1B4D81E5AC5 /* libPods-MyGit.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		4A3B170D1EE6D159006C2B9D /* MyGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3B17111EE6D159006C2B9D /* MyGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGitUITests.m; sourceTree = "<group>"; };
 		4A3B17131EE6D159006C2B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAEBDE91EE831EB004D09A5 /* LSHVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHVC.h; sourceTree = "<group>"; };
+		4AAEBDEA1EE831EB004D09A5 /* LSHVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHVC.m; sourceTree = "<group>"; };
 		567F5C1FED9267741BCE867D /* Pods-MyGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGit/Pods-MyGit.release.xcconfig"; sourceTree = "<group>"; };
 		F569F1B9581DFBA0ACC7F351 /* Pods-MyGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGit/Pods-MyGit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +123,8 @@
 				4A3B16F01EE6D159006C2B9D /* AppDelegate.m */,
 				4A3B16F21EE6D159006C2B9D /* ViewController.h */,
 				4A3B16F31EE6D159006C2B9D /* ViewController.m */,
+				4AAEBDE91EE831EB004D09A5 /* LSHVC.h */,
+				4AAEBDEA1EE831EB004D09A5 /* LSHVC.m */,
 				4A3B16F51EE6D159006C2B9D /* Main.storyboard */,
 				4A3B16F81EE6D159006C2B9D /* Assets.xcassets */,
 				4A3B16FA1EE6D159006C2B9D /* LaunchScreen.storyboard */,
@@ -351,6 +356,7 @@
 			files = (
 				4A3B16F41EE6D159006C2B9D /* ViewController.m in Sources */,
 				4A3B16F11EE6D159006C2B9D /* AppDelegate.m in Sources */,
+				4AAEBDEB1EE831EB004D09A5 /* LSHVC.m in Sources */,
 				4A3B16EE1EE6D159006C2B9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

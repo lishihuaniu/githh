@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 - (void)dealWithStr:(NSString *)str
 {
@@ -32,6 +33,7 @@
     NSLog(@"%@",(NSString *)[array1 firstObject]);
     NSLog(@"%@",(NSString *)[array1 firstObject]);
      NSLog(@"%@",@"aFirst");
+    NSLog(@"%@",@"aSecond");
     NSLog(@"%@",@"aSecond");
     
 }
