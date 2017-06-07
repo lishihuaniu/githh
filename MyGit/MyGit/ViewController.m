@@ -34,7 +34,8 @@
     NSLog(@"%@",(NSString *)[array1 firstObject]);
      NSLog(@"%@",@"aFirst");
     NSLog(@"%@",@"aSecond");
-    NSLog(@"%@",@"aSecond");
+    NSLog(@"%@",@"aThird");
+    NSLog(@"%@",@"aFourth");
     
 }
 
