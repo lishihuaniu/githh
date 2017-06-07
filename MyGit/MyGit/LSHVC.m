@@ -9,5 +9,11 @@
 #import "LSHVC.h"
 
 @implementation LSHVC
-
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
 @end
