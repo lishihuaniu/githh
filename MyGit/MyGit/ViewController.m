@@ -31,6 +31,7 @@
     NSLog(@"%@",(NSString *)[array1 firstObject]);
     NSLog(@"%@",(NSString *)[array1 firstObject]);
     NSLog(@"%@",(NSString *)[array1 firstObject]);
+     NSLog(@"%@",@"aFirst");
     
 }
 
