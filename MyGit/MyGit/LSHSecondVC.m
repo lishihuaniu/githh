@@ -9,5 +9,11 @@
 #import "LSHSecondVC.h"
 
 @implementation LSHSecondVC
-
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
 @end
